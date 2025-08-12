@@ -1,1 +1,19 @@
+lang: en-US
+bg_color: dark
+theme_color: azure
+title: Ryzbyte
+description: Welcome to Ryzbyte’s personal GitHub Pages website.
+keywords: github, pages, jekyll, landing page, website
+gtag: G-X7HSHVZDZT  # Replace with your own Google Analytics tag or remove if not needed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-optional-front-matter
+
 remote_theme: devich/quick@0.0.1
